@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 
 using TestConsoleApps.Menus.Hierarchy;
 
@@ -28,7 +30,7 @@ namespace TestConsoleApps.Menus
                     // TODO: Allow switching from DEV to PROD
                     choice = int.Parse(userInput);
 
-                    if (choice >= 1 && choice <= 4)
+                    if (choice >= 1 && choice <= 2)
                     {
                         break;
                     }
